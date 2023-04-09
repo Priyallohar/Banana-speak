@@ -1,3 +1,87 @@
 :root{
-    --banana
+    --banana-color:#ffe135;
+    --font-color : #000000;
+}
+body{
+    margin: 0px;
+    font-family: 'Alkatra', cursive;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: var(--banana-color);
+    margin: 0px;
+    padding: 20px;
+}
+
+#inputtext{
+        display: block;
+      margin: 20px auto ;
+        width: 500px;
+        height: 90px;
+        resize: none;
+        cursor: pointer;
+        text-align: center;
+        padding-top:4em;
+        font-family: 'Alkatra', cursive;
+        font-size: large;
+        
+}
+
+#inputtext::placeholder{
+  font-family: 'Alkatra', cursive;
+  text-align: center;
+
+}
+
+#btn-translate{
+    display: block;
+    margin: 20px auto;
+    width:200px;
+    height: 30px;
+    font-family: 'Alkatra', cursive;
+    background-color: var(--banana-color);
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 0px;
+    cursor: pointer;
+    
+}
+
+textarea:focus {
+    outline: none;
+  }
+.instruction{
+    display: flex;
+    justify-content: center;
+}
+
+#outputtext{
+margin: 20px auto;
+    width: 500px;
+    height: 70px;
+    overflow: scroll;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 2em;
+    color: var(--font-color);
+    font-size: large;
+}
+
+footer{
+    background-color: var(--banana-color);
+    padding: 15px;
+}
+
+footer div{
+display: flex;
+justify-content: center;
+font-weight: bold;
+text-align: center;
+}
+
+footer p{
+    text-align: center;
 }
