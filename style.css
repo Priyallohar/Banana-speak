@@ -15,6 +15,14 @@ h1{
     padding: 20px;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2em;
+  }
+
 #inputtext{
         display: block;
       margin: 20px auto ;
@@ -72,7 +80,7 @@ margin: 20px auto;
 
 footer{
     background-color: var(--banana-color);
-    padding: 15px;
+    padding: 5px;
 }
 
 footer div{
@@ -80,6 +88,7 @@ display: flex;
 justify-content: center;
 font-weight: bold;
 text-align: center;
+padding-top: 10px;
 }
 
 footer p{
