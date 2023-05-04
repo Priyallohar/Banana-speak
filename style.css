@@ -58,6 +58,10 @@ h1{
     
 }
 
+#btn-translate:hover{
+  background-color: #f3e387;
+}
+
 textarea:focus {
     outline: none;
   }
@@ -119,4 +123,8 @@ footer p{
     text-decoration: none;
     font-weight: bold;
     color: var(--font-color);
+  }
+
+  .link:hover{
+    background-color: #f3e387;
   }
