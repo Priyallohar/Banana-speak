@@ -9,6 +9,12 @@ In this app i have used [Fun Translate Api](https://funtranslations.com/). ***Th
 ![](https://github.com/Priyallohar/Banana-speak/blob/main/Capture.PNG)
 
 ---
+
+# Here you can see app live:-
+
+### <a href="https://banana-minions-speak.netlify.app/" target="_blank">Banana Speak </a>
+
+---
 ### Tech Used: ###
 
 1.HTML
@@ -16,3 +22,8 @@ In this app i have used [Fun Translate Api](https://funtranslations.com/). ***Th
 2.CSS
 
 3.Java Script
+
+---
+Contact :
+
+* [LinkedIN](https://www.linkedin.com/in/priyallohar/)
