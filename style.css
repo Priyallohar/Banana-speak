@@ -6,7 +6,12 @@ body{
     margin: 0px;
     font-family: 'Alkatra', cursive;
 }
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
 h1{
     display: flex;
     justify-content: center;
@@ -16,12 +21,13 @@ h1{
 }
 
 .wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 2em;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2em;
+  height: calc(100vh - 270px); 
+}
 
 #inputtext{
         display: block;
@@ -83,8 +89,11 @@ margin: 20px auto;
 }
 
 footer{
+  position: fixed;
     background-color: var(--banana-color);
     padding: 5px;
+    bottom: 0;
+    width: 100%;
 }
 
 footer div{
